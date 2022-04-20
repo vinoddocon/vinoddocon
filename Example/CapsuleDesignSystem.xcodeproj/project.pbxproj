@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		671BC19627EC8F8000EB61E2 /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BC19527EC8F8000EB61E2 /* ButtonUIView.swift */; };
 		7CD628D3970E002E8B703924 /* Pods_CapsuleDesignSystem_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939EE1E54C101750A03D5425 /* Pods_CapsuleDesignSystem_Tests.framework */; };
 		FE5693D0E45B6F13A4653583 /* Pods_CapsuleDesignSystem_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140B7E82BA6EEF49735C52EF /* Pods_CapsuleDesignSystem_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090852C76447C4887D47E839 /* CapsuleDesignSystem.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CapsuleDesignSystem.podspec; path = ../CapsuleDesignSystem.podspec; sourceTree = "<group>"; };
+		090852C76447C4887D47E839 /* CapsuleDesignSystem.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CapsuleDesignSystem.podspec; path = ../CapsuleDesignSystem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		09613F1AC99B3BB266927511 /* Pods-CapsuleDesignSystem_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapsuleDesignSystem_Tests.release.xcconfig"; path = "Target Support Files/Pods-CapsuleDesignSystem_Tests/Pods-CapsuleDesignSystem_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		140B7E82BA6EEF49735C52EF /* Pods_CapsuleDesignSystem_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapsuleDesignSystem_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BB1DAC86B13DADD23CC6D5 /* Pods-CapsuleDesignSystem_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapsuleDesignSystem_Example.release.xcconfig"; path = "Target Support Files/Pods-CapsuleDesignSystem_Example/Pods-CapsuleDesignSystem_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +45,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63F2456A27954321CC1923E8 /* Pods-CapsuleDesignSystem_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapsuleDesignSystem_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CapsuleDesignSystem_Tests/Pods-CapsuleDesignSystem_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7766E63DC887E74EBE1F3DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		671BC19527EC8F8000EB61E2 /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
+		7766E63DC887E74EBE1F3DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		939EE1E54C101750A03D5425 /* Pods_CapsuleDesignSystem_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapsuleDesignSystem_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6C7AC1AD842D58B1683A60D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A6C7AC1AD842D58B1683A60D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				671BC19527EC8F8000EB61E2 /* ButtonUIView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +150,6 @@
 				63F2456A27954321CC1923E8 /* Pods-CapsuleDesignSystem_Tests.debug.xcconfig */,
 				09613F1AC99B3BB266927511 /* Pods-CapsuleDesignSystem_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z59FLH3959;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z59FLH3959;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671BC19627EC8F8000EB61E2 /* ButtonUIView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -419,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,7 +484,9 @@
 			baseConfigurationReference = 58DCC965728013C27F2C8F5B /* Pods-CapsuleDesignSystem_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59FLH3959;
 				INFOPLIST_FILE = CapsuleDesignSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +501,9 @@
 			baseConfigurationReference = 27BB1DAC86B13DADD23CC6D5 /* Pods-CapsuleDesignSystem_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59FLH3959;
 				INFOPLIST_FILE = CapsuleDesignSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63F2456A27954321CC1923E8 /* Pods-CapsuleDesignSystem_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z59FLH3959;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09613F1AC99B3BB266927511 /* Pods-CapsuleDesignSystem_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z59FLH3959;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

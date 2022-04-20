@@ -1,0 +1,6 @@
+framework module CapsuleDesignSystem {
+  umbrella header "CapsuleDesignSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

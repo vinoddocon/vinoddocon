@@ -1,0 +1,29 @@
+{
+  "name": "CapsuleDesignSystem",
+  "version": "0.1.0",
+  "summary": "A short description of CapsuleDesignSystem.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vinod Rathod/CapsuleDesignSystem",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vinod Rathod": "vinod@docon.co.in"
+  },
+  "source": {
+    "git": "https://github.com/Vinod Rathod/CapsuleDesignSystem.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": [
+    "CapsuleDesignSystem/Classes/**/*"
+  ],
+  "resource_bundles": {
+    "CapsuleDesignSystem": [
+      "CapsuleDesignSystem/Assets/**/*"
+    ]
+  }
+}

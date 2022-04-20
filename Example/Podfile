@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'CapsuleDesignSystem_Example' do
   pod 'CapsuleDesignSystem', :path => '../'
-
+  
   target 'CapsuleDesignSystem_Tests' do
     inherit! :search_paths
 

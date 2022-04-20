@@ -1,0 +1,16 @@
+PODS:
+  - CapsuleDesignSystem (0.1.0)
+
+DEPENDENCIES:
+  - CapsuleDesignSystem (from `../`)
+
+EXTERNAL SOURCES:
+  CapsuleDesignSystem:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CapsuleDesignSystem: 1941f9a1be706544fa7710c0060b1f735b3a79d5
+
+PODFILE CHECKSUM: cabc231ad1768de2cf61c083f0b1d4a7aca8be00
+
+COCOAPODS: 1.11.3
